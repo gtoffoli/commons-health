@@ -12,7 +12,8 @@ from commons.settings import *
 from health.private import *
 
 SITE_ID = 3
-SITE_NAME = 'HEALTH - Health Emergency in Asia and Africa'
+SITE_NAME = 'HEALTH'
+SITE_NAME_LONG = 'HEALTH'
 
 WSGI_APPLICATION = 'health.wsgi.application'
 ROOT_URLCONF = 'health.urls'
