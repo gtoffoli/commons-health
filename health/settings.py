@@ -9,11 +9,9 @@ SECONDARY_DOMAIN = None
 TEST_DOMAIN = None
 
 from commons.settings import *
-from health.private import *
 
 SITE_ID = 3
 SITE_NAME = 'HEALTH'
-SITE_NAME_LONG = 'HEALTH'
 
 WSGI_APPLICATION = 'health.wsgi.application'
 ROOT_URLCONF = 'health.urls'
