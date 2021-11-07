@@ -12,6 +12,7 @@ from commons.settings import *
 
 SITE_ID = 3
 SITE_NAME = 'HEALTH'
+SITE_ROOT = 'health'
 
 WSGI_APPLICATION = 'health.wsgi.application'
 ROOT_URLCONF = 'health.urls'
