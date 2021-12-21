@@ -6,11 +6,11 @@ HAS_SAML2 = False # supports the SSO interface provided by the Up2U project (www
 HAS_LRS = False # supports xAPI?
 HAS_EARMASTER = False # supports import and processing of the data exported from the EarMaster application ?
 
+from commons.settings import *
+
 PRIMARY_DOMAIN = 'health.commonspaces.eu'
 SECONDARY_DOMAIN = None
 TEST_DOMAIN = None
-
-from commons.settings import *
 
 SITE_ID = 3
 SITE_NAME = 'HEALTH'
@@ -22,3 +22,5 @@ ROOT_URLCONF = 'health.urls'
 PROJECT_TITLE = 'HEALTH - Health Emergency in Asia and Africa'
 PROJECT_NAME = 'health'
 LOGIN_REDIRECT_URL = 'health.home'
+
+print('----- health.settings', PRIMARY_DOMAIN)
