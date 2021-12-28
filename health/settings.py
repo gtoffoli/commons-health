@@ -15,6 +15,7 @@ TEST_DOMAIN = None
 SITE_ID = 3
 SITE_NAME = 'HEALTH'
 SITE_ROOT = 'health'
+ALLOW_REDUCED_PROFILE = True
 
 WSGI_APPLICATION = 'health.wsgi.application'
 ROOT_URLCONF = 'health.urls'
@@ -22,5 +23,3 @@ ROOT_URLCONF = 'health.urls'
 PROJECT_TITLE = 'HEALTH - Health Emergency in Asia and Africa'
 PROJECT_NAME = 'health'
 LOGIN_REDIRECT_URL = 'health.home'
-
-print('----- health.settings', PRIMARY_DOMAIN)
