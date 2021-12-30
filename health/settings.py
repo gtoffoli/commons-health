@@ -15,6 +15,7 @@ TEST_DOMAIN = None
 SITE_ID = 3
 SITE_NAME = 'HEALTH'
 SITE_ROOT = 'health'
+HAS_CALENDAR = True
 ALLOW_REDUCED_PROFILE = True
 
 WSGI_APPLICATION = 'health.wsgi.application'
