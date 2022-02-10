@@ -13,6 +13,7 @@ SECONDARY_DOMAIN = None
 TEST_DOMAIN = None
 
 SITE_ID = 3
+IS_SITE_PRIVATE = True
 SITE_NAME = 'HEALTH'
 SITE_ROOT = 'health'
 HAS_CALENDAR = True
@@ -24,3 +25,11 @@ ROOT_URLCONF = 'health.urls'
 PROJECT_TITLE = 'HEALTH - Health Emergency in Asia and Africa'
 PROJECT_NAME = 'health'
 LOGIN_REDIRECT_URL = 'health.home'
+
+LANGUAGES = (
+    (u'en', u'English'),
+    (u'fr', u'Français'),
+    (u'it', u'Italiano'),
+    (u'pt', u'Português'),
+    (u'ar', u'العربية'),
+)
